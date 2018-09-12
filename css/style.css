@@ -1,0 +1,157 @@
+body
+{
+    background:#EEE;
+}
+.container
+{
+    width: 485px;
+    margin: 5px auto;
+    background:#FFF;
+    padding: 20px;
+    overflow: hidden;
+}
+.container .header
+{
+    position: relative;
+}
+.container .header img
+{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.container .header p
+{
+    float: left;
+    margin-top: 35px;
+}
+.container .header p span
+{
+    font-weight: bold;
+    display: block;
+}
+.container .header p.right
+{
+    float: right;
+    font-size: 18px;
+    color:#555;
+}
+.container .header p.right i.fa
+{
+    font-size: 16px;
+}
+.container .content
+{
+    clear: both;
+    padding-top: 35px;
+    font-family: Arial;
+}
+.container .content h3
+{
+    color: #37218c;
+}
+.container .content p
+{
+    color:#5d5f96;
+}
+.container .content form label
+{
+    display: block;
+    margin-bottom:20px;
+}
+.container .content form input[type="radio"]
+{
+    display: none;
+}
+.container .content form input[type="radio"] + label:before
+{
+    content:"";
+    border:1px solid #CCC;
+    width:16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    background:#FFF;
+    display: inline-block;
+    text-align: center;
+    
+}
+.container .content form  input[type="radio"]:checked + label:before
+{
+    content: "\2713";
+    color: red;
+    font-family: 'FontAwesome';
+}
+.container .content form label input[type="text"]
+{
+    padding: 10px;
+    width: 250px;
+    background: #FFF;
+    border: 1px solid #37218c;
+}
+.container .content form input[checked] + label input[type="text"]
+{
+    background:#EEE;
+}
+.container .content form span
+{
+    color: #7D7D7D;
+}
+.container .content p a
+{
+    display: inline-block;
+    color:#37218c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background:#EEE;
+    padding: 5px;
+    margin-right: 10px;
+}
+.container .content p a i.fa
+{
+    font-size: 16px;
+}
+.container .content ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.container .content ul li
+{
+    float: left;
+    margin:10px;
+}
+
+hr
+{
+    width: 100%;
+}
+
+.container .comment img
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.container .comment form
+{
+    float: left;
+    width:80%;
+}
+.container .comment input
+{
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid #EEE;
+    outline: none;
+    width:100%;
+        
+}
